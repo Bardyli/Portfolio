@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header id="ballina">
+      <nav id="nav">
+        <div class="nav-center">
+          <div class="nav-header">
+            <!-- <img src="./logo.svg" alt="logo" class="logo"/> -->
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#ballina" class="scroll-link active">Home</a>
+              </li>
+              <li>
+                <a href="#projekte" class="scroll-link">Projects</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">About</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link" >Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="banner">
+        <div class="container" style="margin-top: -20px;">
+          <div class="rrethmeje">
+            <h1>Ervin Behxheti</h1>
+            <h2>Self taught Full-Stack Developer with passion for coding and solving problems</h2>
+          </div>
+          <canvas id="Matrix" style="max-width: 100%;max-height: 100%;"></canvas>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="projekte" class="p-section">
+      <h1>Projects</h1>
+      <div class="projekti-center">
+        <article class="projekti">
+          <figure>
+          <figure>
+            <img src="./images/projektet/kafja.png" alt="friends">
+            <figcaption>Friends Coffee <p>Small business website that shows their location through a modal, and a menu of their foods and drinks with a search filter.</p>
+            <button>Live Demo
+            </button>
+            <br> <button>Github</button>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="projekti">
+          <figure>
+            <img src="./images/projektet/list.png" alt="grocery-bud">
+            <figcaption>Grocery Bud<p>Doing this to do list project, I built up my vanilla javascript skills.</p>
+            <button>Live Demo
+            </button>
+            <br> <button>Github</button>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="projekti">
+          <figure>
+            <img src="./images/projektet/login.png" alt="LoginSystem">
+            <figcaption>Login System<p>Authentication Project , important component of every social website.I used Node.Js,Express.Js and GIT to build this.</p>
+            <button>Live Demo
+            </button>
+            <br> <button>Github</button>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="projekti" style="width: 41vh;">
+          <figure>
+            <img src="./images/projektet/memory.png" alt="Memory">
+            <figcaption>Memory Game <p>Short interesting games are always fun and addictive.Through this project i worked my game developing skills with javascript</p>
+            <button>Live Demo
+            </button>
+            <br> <button>Github</button>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="projekti">
+          <figure>
+            <img src="./images/projektet/comfy.png" alt="friends">
+            <figcaption>Comfy House <p>I built this E-Commerce Website to expand my Javascript Knowledge</p>
+            <button>Live Demo
+            </button>
+            <br> <button>Github</button>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="projekti">
+          <figure>
+            <img src="./images/projektet/portofolio.png" alt="friends">
+            <figcaption>Portofolio <p>Hey this is also a project of mine, which of course you're seeing it right now.</p>
+            <button>Live Demo
+            </button>
+            <br> <button>Github</button>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+      
+    <a href="#ballina" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <section id="about" class="kontakti">
+      <div class="aboutme">
+        <h1>About Me</h1>
+        <p>As a Full-Stack Web Developer ,the Technology I use the most is Javascript,React.js, Express.js and Node.js (Can't forget HTML and CSS). <br>
+          I love coding and learning design patterns through working with different frameworks.Coding for a while has taught me that it does not matter what the technology I will work is, because I will simply pick it up and learn it.
+        </p>
+      </div>
+
+      <div class="hk">
+        <h1>How to Contact me ?</h1>
+      <ul>
+        <li>ervinbehxheti05@gmail.com</li>
+        <li>+38349433007</li>
+        <li><a href="https://www.linkedin.com/in/ervin-behxheti-9aa851244/" target=”_blank”>LinkedIn</a></li>
+        <li><a href="https://github.com/Bardyli" target=”_blank”>Github</a></li>
+        <li><a href="https://instagram.com/ervinbehxheti" target=”_blank”>Instagram</a></li>
+      </ul>
+      </div>
+    </section>
+
+      
+    <!-- javascript -->
+    <script src="./js/app.js"></script>
+    <script src="./js/canvas.js"></script>
+  </body>
+</html>
